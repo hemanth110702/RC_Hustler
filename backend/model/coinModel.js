@@ -29,6 +29,8 @@ const coinSchema = new mongoose.Schema({
     type: mongoose.Types.Decimal128,
     required: true
   }
+  }, {
+    timestamps: true
 });
 
 const Coin = mongoose.model('Coin', coinSchema);
