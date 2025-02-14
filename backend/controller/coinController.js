@@ -33,4 +33,6 @@ const createCoin = async(req, res) => {
   }
 };
 
-module.exports = {createCoin};
+module.exports = {
+    createCoin,
+};
